@@ -1,4 +1,4 @@
-# quantkit.js
+# quantkit
 
 **A lightweight quantitative finance and portfolio analytics library for JavaScript.**
 
