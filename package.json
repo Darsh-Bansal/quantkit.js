@@ -1,0 +1,61 @@
+{
+  "name": "quantkit",
+  "version": "0.1.0",
+  "description": "A lightweight quantitative finance and portfolio analytics library for JavaScript.",
+  "keywords": [
+    "quantitative-finance",
+    "finance",
+    "portfolio",
+    "sharpe-ratio",
+    "sortino-ratio",
+    "drawdown",
+    "volatility",
+    "risk",
+    "statistics",
+    "technical-indicators"
+  ],
+  "homepage": "https://github.com/YOUR_USERNAME/quantkit.js#readme",
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/quantkit.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/quantkit.js.git"
+  },
+  "license": "MIT",
+  "author": "Darsh",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./stats": "./src/stats.js",
+    "./returns": "./src/returns.js",
+    "./risk": "./src/risk.js",
+    "./performance": "./src/performance.js",
+    "./timeseries": "./src/timeseries.js",
+    "./portfolio": "./src/portfolio.js",
+    "./indicators": "./src/indicators.js",
+    "./package.json": "./package.json"
+  },
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm test"
+  },
+  "devDependencies": {
+    "vitest": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "module": "./src/index.js",
+  "sideEffects": false
+}
