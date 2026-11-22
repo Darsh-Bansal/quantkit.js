@@ -14,14 +14,14 @@
     "statistics",
     "technical-indicators"
   ],
-  "homepage": "https://github.com/YOUR_USERNAME/quantkit.js#readme",
+  "homepage": "https://github.com/Darsh-Bansal/quantkit.js#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/quantkit.js/issues"
+    "url": "https://github.com/Darsh-Bansal/quantkit.js/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR_USERNAME/quantkit.js.git"
-  },
+    "url": "git+https://github.com/Darsh-Bansal/quantkit.js.git"
+  }
   "license": "MIT",
   "author": "Darsh",
   "type": "module",
