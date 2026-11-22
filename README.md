@@ -18,13 +18,13 @@
 ## Installation
 
 ```bash
-npm install quantkit.js
+npm install quantkit
 ```
 
 or
 
 ```bash
-yarn add quantkit.js
+yarn add quantkit
 ```
 
 Requires Node.js 18+. The package is ESM-only.
@@ -32,7 +32,7 @@ Requires Node.js 18+. The package is ESM-only.
 ## Quick Start
 
 ```javascript
-import { sharpeRatio, maxDrawdown, volatility } from "quantkit.js";
+import { sharpeRatio, maxDrawdown, volatility } from "quantkit";
 
 const returns = [0.02, -0.01, 0.035, 0.012, -0.02, 0.04, 0.015];
 
@@ -46,7 +46,7 @@ console.log({ sharpe, drawdown, vol });
 You can also import only the module you need:
 
 ```javascript
-import { rsi, macd } from "quantkit.js/indicators";
+import { rsi, macd } from "quantkit/indicators";
 ```
 
 ## Conventions
@@ -81,7 +81,7 @@ import { rsi, macd } from "quantkit.js/indicators";
 `portfolioReturns(assetReturns, weights)`, `covarianceMatrix`, `correlationMatrix`, `portfolioVariance`, `portfolioVolatility`, `riskContributions`, `normalizeWeights`, `equalWeights`
 
 ```javascript
-import { portfolioReturns, covarianceMatrix, portfolioVolatility, riskContributions } from "quantkit.js";
+import { portfolioReturns, covarianceMatrix, portfolioVolatility, riskContributions } from "quantkit";
 
 const assets = [
   [0.01, 0.02, -0.01, 0.015], // asset A
